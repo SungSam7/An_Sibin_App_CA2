@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"></item>
+    <item android:title="Recipe App">
+
+        <menu>
+            <item
+                android:id="@+id/add_recipe"
+                android:title="Add Recipes"></item>
+            <item
+                android:id="@+id/show_recipe"
+                android:title="Show Recipes"></item>
+            <item
+                android:id="@+id/delete_update_recipe"
+                android:title="Delete/Update Recipes"></item>
+
+
+        </menu>
+    </item>
+
+    <item android:title="More Stuff">
+
+        <menu>
+
+            <item
+                android:id="@+id/shopping_list"
+                android:title="Shopping List"></item>
+
+            <item
+                android:id="@+id/contact_us"
+                android:title="Where to find Us"></item>
+            <item
+                android:id="@+id/nav_sync"
+                android:title="Clicked Sync N/A"></item>
+
+            <item
+                android:id="@+id/nav_trash"
+                android:title="Clicked Trash N/A"></item>
+            <item
+                android:id="@+id/nav_setting"
+                android:title="Clicked Setting N/A"></item>
+            <item
+                android:id="@+id/nav_login"
+                android:title="Clicked Login N/A"></item>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Clicked Share N/A"></item>
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

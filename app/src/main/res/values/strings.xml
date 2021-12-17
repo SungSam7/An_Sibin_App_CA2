@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FirebaseLogin SignUp</string>
+    <string name="no_account">Don\'t have account? <b>Sign up here!</b> </string><!--make signup bold-->
+    <string name="cover">cover</string>
+    <string name="title_place_holder_here">title place holder here</string>
+    <string name="food_type">food type</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_contact">ContactActivity</string>
+</resources>

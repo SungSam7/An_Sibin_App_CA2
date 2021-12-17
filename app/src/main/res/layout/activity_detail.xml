@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.DetailActivity">
+
+
+    <ImageView
+        android:id="@+id/cover"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/food1"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/cover"
+
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_place_holder_here"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:lines="2"
+
+        />
+
+    <TextView
+        android:id="@+id/chef"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/food_type"
+        android:textColor="@color/darkGrey"
+        android:textSize="18sp"
+        android:lines="1"
+
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/food_type"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:lines="1"
+
+        />
+
+
+</LinearLayout>
